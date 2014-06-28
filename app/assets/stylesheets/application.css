@@ -13,3 +13,154 @@
  *= require_tree .
  *= require_self
  */
+
+ /**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of Meyer Reset */
+
+body {
+	width: 100%;
+	background-color: #4E638E;
+}
+
+#header {
+	height: 100px;
+	width: 100%;
+	background-color: #718EA4;
+	text-align: center;
+}
+
+h1, h1 a, h2, h3, h4, h5 {
+	font-size: 40px;
+}
+
+h1, h2, h3, h4, h5, p, a {
+font-family: Helvetica, Arial, sans-serif;
+text-align: center;
+}
+
+h1 {
+	padding-top: 1rem;
+}
+
+p {
+	margin-top: 2rem;
+	font-size: 20px;
+}
+
+.center {
+	width: 120px;
+	margin: 0 auto;
+	padding-top: 1rem;
+}
+
+.center2 {
+	width: 150px;
+	margin: 0 auto;
+	padding-top: 1rem;
+}
+
+.center3 {
+	width: 450px;
+	margin: 0 auto;
+	padding-top: 1rem;
+}
+
+.move {
+	padding-left: 1rem;
+}
+
+a {
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	transition: 1s;
+}
+
+a:hover {
+	color: white;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	border: 5px solid white;
+}
+
+input[type="text"] {
+	border-radius: 5px;
+	width: 15rem;
+	padding: 5px;
+	margin-top: .5rem;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+}
+
+p#extend {
+	line-height: 3rem;
+}
+input[type="submit"] {
+	width: 15rem;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	border-radius: 5px;
+	background-color: #2D4471;
+	border: none;
+	transition: 1s;
+}
+
+input[type="submit"]:hover {
+	color: white;
+	cursor: pointer;
+}
+
